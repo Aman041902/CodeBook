@@ -1,0 +1,51 @@
+.home-container {
+  background-color: rgb(112, 104, 104);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+
+  .left{
+    background-color: rgb(84, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .left-cont{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px;
+     
+      img{
+        height: 200px;
+        width: 200px;
+        border-radius: 20%;
+        cursor: pointer;
+      }
+      h1{
+        color: rgb(139, 233, 105);
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+      button{
+        cursor: pointer;
+        height: 50px;
+        width: 70%;
+        border-radius: 20px;
+        border: none;
+        transition-duration: 0.5s;
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color:antiquewhite;
+      }
+
+      button:hover{
+        box-shadow: 5px 5px 6px gray;
+      }
+    }
+  }
+}

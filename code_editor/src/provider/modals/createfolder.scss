@@ -1,0 +1,88 @@
+.modal-cont{
+  
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgba(153, 153, 153, 0.3);
+  
+  display:flex;
+  
+  justify-content: center;
+  align-items: center;
+  
+
+  .modal-body{
+    
+    box-shadow: 5px 5px 10px rgb(101, 101, 101);
+    background-color: rgb(105, 229, 132);
+    padding: 50px;
+    
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .input-folder{
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 20px;
+      input{
+        border-radius: 5px;
+        border: none;
+        background-color:aliceblue ;
+        padding: 5px;
+      }
+    }
+
+    .input-file{
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      
+      input{
+        border-radius: 5px;
+        border: none;
+        background-color:aliceblue ;
+        padding: 5px;
+      }
+    }
+    .material-symbols-outlined{
+      position: absolute;
+      top:0;
+      right:0;
+      margin: 20px;
+      cursor: pointer;
+      color: rgb(232, 9, 5);
+      font-size: 30px;
+    }
+
+    .options{
+      display: flex;
+      justify-content: space-between;
+      
+      select{
+        font-size: 15px;
+        border-radius: 10px;
+        padding: 5px;
+        cursor: pointer;
+      }
+
+      button{
+        font-size: 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        padding: 10px;
+        transition-duration: 0.5s;
+        background-color: bisque;
+        border: none;
+      }
+      button:hover{
+        box-shadow: 3px 3px 6px gray;
+      }
+    }
+  }
+}

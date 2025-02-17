@@ -1,0 +1,83 @@
+.main-editor-cont{
+  background-color:rgb(178, 99, 99);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .head{
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+
+    button,select{
+      border: none;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button{
+      background-color: beige;
+      cursor: pointer;
+      transition: 0.5s;
+    }
+
+    select:focus{
+      outline: none;
+      
+    }
+
+    button:hover{
+      box-shadow: 3px 3px 6px rgb(49, 47, 47);
+      background-color: bisque;
+    }
+
+    .title{
+      font-size: 25px;
+    }
+  }
+
+  .left-head,.right-head{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+  }
+  .footer{
+    background-color: gray;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    button,label{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn{
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      background-color: antiquewhite;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button{
+      transition: 0.5s;
+    }
+    button:hover{
+      box-shadow: 3px 3px 6px rgb(49, 47, 47);
+      background-color: bisque;
+      cursor: pointer;
+    }
+  }
+
+  .body{
+    flex-grow: 1;
+    background-color: white;
+    
+  }
+  
+}
+
