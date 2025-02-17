@@ -6,17 +6,7 @@
 
 ---
 
-## 📌 Table of Contents  
-- [✨ Features](#-features)  
-- [🛠️ Supported Languages](#-supported-languages)  
-- [📦 Installation & Setup](#-installation--setup)  
-- [🚀 Usage](#-usage)  
-- [📸 Screenshots](#-screenshots)  
-- [💾 Local Storage Data](#-local-storage-data)  
-- [📜 License](#-license)  
-- [📬 Contact](#-contact)  
 
----
 
 ## ✨ Features  
 
@@ -38,9 +28,9 @@
 
 ---
 
-## 📦 Installation & Setup  
 
-1️⃣ **Clone the Repository:**  
+
+ **Clone the Repository:**  
 
 ```bash
 git clone https://github.com/yourusername/codebook.git
