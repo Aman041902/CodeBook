@@ -33,5 +33,5 @@
  **Clone the Repository:**  
 
 ```bash
-git clone https://github.com/yourusername/codebook.git
-cd codebook
+git clone https://github.com/Aman041902/CodeBook.git
+cd code_editor
