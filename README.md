@@ -1,6 +1,6 @@
 # 🚀 CodeBook - A Modern Online Code Editor  
 
-![CodeBook Logo](./public/logo1.png)
+![CodeBook Logo](./code_editor/public/logo1.png)
 
 **CodeBook** is a powerful, browser-based **code editor** built with **React**, featuring **Judge0 API** integration for real-time compilation. With support for multiple programming languages, file management, and theme switching, CodeBook is your go-to online coding environment!  
 
